@@ -1,0 +1,378 @@
+
+Node: CD8A
+{5: ['AKT1', 'ALB', 'BCL2', 'BCL2L1', 'CD44', 'CRP', 'CSF1R', 'CTNNB1', 'ERBB2', 'FN1', 'FYN', 'IL6', 'KIT', 'MYC', 'SRC', 'STAT3', 'TGFB1', 'THBD', 'TP53', 'VCAM1'], 0: ['CCL17', 'CCL19', 'CCL2', 'CCL21', 'CCL22', 'CCL3', 'CCL4', 'CCL5', 'CCR2', 'CCR3', 'CCR5', 'CCR6', 'CCR7', 'CCRL2', 'CX3CL1', 'CX3CR1', 'CXCL10', 'CXCL11', 'CXCL12', 'CXCL13', 'CXCL8', 'CXCL9', 'CXCR3', 'CXCR4', 'CXCR5', 'CXCR6'], 3: ['CD163', 'CD19', 'CD1C', 'CD2', 'CD27', 'CD274', 'CD28', 'CD34', 'CD38', 'CD4', 'CD40', 'CD40LG', 'CD5', 'CD68', 'CD69', 'CD80', 'CD83', 'CD86', 'CTLA4', 'FAS', 'FASLG', 'FCGR2A', 'FCGR3A', 'FCGR3B', 'FOXP3', 'GZMB', 'HAVCR2', 'ICAM1', 'ICOS', 'IDO1', 'IL17A', 'ITGAM', 'ITGAX', 'ITGB2', 'LAG3', 'LCK', 'NCAM1', 'PDCD1', 'PRF1', 'PTPRC', 'SELL', 'TBX21', 'TNFRSF18', 'TNFRSF4', 'TNFRSF9'], 2: ['CSF2', 'CSF3', 'GATA3', 'IFNA1', 'IFNA17', 'IFNA2', 'IFNB1', 'IFNG', 'IFNGR1', 'IL10', 'IL10RA', 'IL12RB1', 'IL13', 'IL15', 'IL2', 'IL21R', 'IL22', 'IL2RA', 'IL2RB', 'IL2RG', 'IL3RA', 'IL4', 'IL4R', 'IL5', 'IL7', 'IL7R', 'SOCS1', 'STAT1', 'STAT4', 'STAT5A', 'STAT5B', 'STAT6'], 1: ['IL18', 'IL1A', 'IL1B', 'IRF7', 'MYD88', 'NFKB1', 'SYK', 'TLR1', 'TLR2', 'TLR3', 'TLR4', 'TLR7', 'TLR8', 'TLR9', 'TNF', 'TNFRSF1A', 'TNFSF13B']}
+module: 3
+modules connecting: dict_keys([5, 0, 3, 2, 1])
+2
+
+
+Node: BCL2
+{5: ['ACTB', 'AKT1', 'ALB', 'BCL2L1', 'CASP3', 'CASP8', 'CDK6', 'CTNNB1', 'CTSD', 'CYBB', 'EGFR', 'ERBB2', 'ESR1', 'FN1', 'FOS', 'GAPDH', 'H3C12', 'H3C13', 'HIF1A', 'HSP90AA1', 'HSP90AB1', 'IGF1', 'IL6', 'INS', 'JUN', 'KIT', 'KRAS', 'MAPK1', 'MAPK14', 'MAPK3', 'MAPK8', 'MMP2', 'MMP9', 'MYC', 'PTGS2', 'SRC', 'STAT3', 'TP53'], 1: ['CASP1', 'CHUK', 'IKBKB', 'IL1B', 'NFKB1', 'NFKBIA', 'RELA', 'TLR4', 'TNF'], 0: ['CCL3', 'CXCL12', 'CXCL13', 'CXCR4'], 3: ['CD34', 'CD38', 'CD4', 'CD5', 'CD8A', 'FAS', 'FASLG', 'FOXP3'], 2: ['IFNG', 'IL10', 'IL2', 'IL7', 'IL7R', 'JAK2', 'STAT5A', 'STAT6']}
+module: 5
+modules connecting: dict_keys([5, 1, 0, 3, 2])
+2
+
+
+Node: MYD88
+{5: ['AKT1', 'CASP8', 'CYBB', 'IL6', 'JUN', 'MAPK14', 'MAPK3', 'MAPK8', 'PTGS2', 'SRC', 'STAT3', 'TP53'], 1: ['CASP1', 'CHUK', 'HMGB1', 'IKBKB', 'IL18', 'IL1A', 'IL1B', 'IL1R1', 'IL33', 'IRAK1', 'IRAK4', 'IRF3', 'IRF5', 'IRF7', 'LY96', 'NFKB1', 'NFKBIA', 'NLRP3', 'NOD2', 'RELA', 'SYK', 'TLR1', 'TLR2', 'TLR3', 'TLR4', 'TLR5', 'TLR7', 'TLR8', 'TLR9', 'TNF', 'TNFRSF1A', 'TRAF3', 'TRAF6'], 0: ['CCL2', 'CXCL10', 'CXCL8', 'CXCR3'], 3: ['CD4', 'CD40', 'CD86', 'CD8A', 'FOXP3', 'IL17A', 'ITGAM', 'ITGAX'], 2: ['IFNA1', 'IFNB1', 'IFNG', 'IL10', 'IL13', 'IL2', 'IL4', 'IRF4', 'JAK1', 'SOCS1', 'SOCS3', 'STAT1']}
+module: 1
+modules connecting: dict_keys([5, 1, 0, 3, 2])
+2
+
+
+Node: TYMS
+{6: ['GART', 'GGH', 'ITPA', 'MTHFR'], 5: ['TP53']}
+module: 6
+modules connecting: dict_keys([6, 5])
+1
+
+
+Node: IL6
+{5: ['ACTB', 'ADIPOQ', 'AGT', 'AKT1', 'ALB', 'APOE', 'BCL2', 'BCL2L1', 'BMP6', 'CASP3', 'CASP8', 'CD44', 'CRP', 'CSF1', 'CSF1R', 'CTNNB1', 'CYBB', 'EDN1', 'EGF', 'EGFR', 'ERBB2', 'ESR1', 'F2', 'F3', 'FGF2', 'FN1', 'FOS', 'GAPDH', 'H3C12', 'H3C13', 'HIF1A', 'HSP90AA1', 'HSP90AB1', 'IGF1', 'IGFBP3', 'INS', 'JUN', 'KIT', 'KRAS', 'LCN2', 'LEP', 'MAPK1', 'MAPK14', 'MAPK3', 'MAPK8', 'MMP1', 'MMP12', 'MMP2', 'MMP3', 'MMP9', 'MPO', 'MYC', 'PDGFRA', 'PDGFRB', 'PLAUR', 'PPARG', 'PTGS2', 'PTPN11', 'RUNX2', 'SERPINE1', 'SRC', 'STAT3', 'TGFB1', 'TIMP1', 'TP53', 'VCAM1', 'VEGFC'], 1: ['CASP1', 'CHUK', 'HMGB1', 'IKBKB', 'IL18', 'IL1A', 'IL1B', 'IL1R1', 'IL1R2', 'IL1RN', 'IL33', 'IRAK1', 'IRAK4', 'IRF3', 'IRF7', 'LTA', 'LY96', 'MYD88', 'NFKB1', 'NFKBIA', 'NLRP3', 'NOD2', 'PTGS1', 'RELA', 'TLR1', 'TLR2', 'TLR3', 'TLR4', 'TLR5', 'TLR7', 'TLR8', 'TLR9', 'TNF', 'TNFAIP3', 'TNFRSF1A', 'TNFRSF1B', 'TNFSF11', 'TNFSF13B', 'TRAF3', 'TRAF6'], 0: ['CCL11', 'CCL17', 'CCL19', 'CCL2', 'CCL20', 'CCL22', 'CCL3', 'CCL3L1', 'CCL4', 'CCL5', 'CCL7', 'CCR1', 'CCR2', 'CCR3', 'CCR5', 'CCR7', 'CCRL2', 'CX3CL1', 'CXCL1', 'CXCL10', 'CXCL11', 'CXCL12', 'CXCL13', 'CXCL2', 'CXCL3', 'CXCL5', 'CXCL6', 'CXCL8', 'CXCL9', 'CXCR1', 'CXCR2', 'CXCR3', 'CXCR4', 'CXCR5', 'MIF'], 3: ['CD163', 'CD19', 'CD274', 'CD28', 'CD34', 'CD38', 'CD4', 'CD40', 'CD40LG', 'CD5', 'CD68', 'CD69', 'CD80', 'CD83', 'CD86', 'CD8A', 'CTLA4', 'FCGR3A', 'FCGR3B', 'FOXP3', 'HAVCR2', 'ICAM1', 'IDO1', 'IGHV3-43D', 'IL17A', 'ITGAM', 'ITGAX', 'PTPRC', 'SELL', 'TBX21', 'TNFRSF4'], 2: ['CSF2', 'CSF2RB', 'CSF3', 'CSF3R', 'EPO', 'IFNA1', 'IFNA17', 'IFNA2', 'IFNAR1', 'IFNAR2', 'IFNB1', 'IFNG', 'IFNGR1', 'IFNL1', 'IFNLR1', 'IL10', 'IL10RA', 'IL10RB', 'IL11', 'IL11RA', 'IL12RB1', 'IL12RB2', 'IL13', 'IL13RA1', 'IL13RA2', 'IL15', 'IL17F', 'IL2', 'IL20RA', 'IL20RB', 'IL21R', 'IL22', 'IL22RA1', 'IL23A', 'IL23R', 'IL27RA', 'IL2RA', 'IL2RB', 'IL2RG', 'IL3', 'IL3RA', 'IL4', 'IL4R', 'IL5', 'IL5RA', 'IL6R', 'IL6ST', 'IL7', 'IL7R', 'IL9', 'JAK1', 'JAK2', 'JAK3', 'LEPR', 'LIF', 'LIFR', 'OSM', 'SOCS1', 'SOCS3', 'STAT1', 'STAT4', 'STAT5A', 'STAT5B', 'STAT6', 'TYK2']}
+module: 5
+modules connecting: dict_keys([5, 1, 0, 3, 2])
+2
+
+
+Node: CSF3
+{5: ['ALB', 'CRP', 'CSF1', 'CSF1R', 'EGF', 'EGFR', 'FGF2', 'IL6', 'INS', 'LEP', 'MPO', 'PDGFRA', 'PDGFRB', 'STAT3'], 0: ['CCL11', 'CCL2', 'CCL20', 'CCL22', 'CCL3', 'CCL4', 'CCL5', 'CX3CL1', 'CXCL1', 'CXCL10', 'CXCL12', 'CXCL2', 'CXCL5', 'CXCL8', 'CXCL9', 'CXCR4'], 3: ['CD34', 'CD38', 'CD4', 'CD8A', 'ICAM1', 'IL17A', 'ITGAM'], 2: ['CSF2', 'CSF2RB', 'CSF3R', 'EPO', 'IFNA2', 'IFNAR1', 'IFNAR2', 'IFNB1', 'IFNG', 'IFNGR1', 'IL10', 'IL10RA', 'IL10RB', 'IL11', 'IL12RB1', 'IL12RB2', 'IL13', 'IL13RA1', 'IL13RA2', 'IL15', 'IL17F', 'IL2', 'IL20RB', 'IL21R', 'IL22RA1', 'IL23R', 'IL27RA', 'IL2RA', 'IL2RB', 'IL2RG', 'IL3', 'IL3RA', 'IL4', 'IL4R', 'IL5', 'IL5RA', 'IL6R', 'IL6ST', 'IL7', 'IL7R', 'IL9', 'JAK1', 'JAK2', 'JAK3', 'LEPR', 'LIF', 'LIFR', 'SOCS3', 'STAT1', 'STAT5A', 'STAT5B'], 1: ['IL18', 'IL1A', 'IL1B', 'TLR4', 'TNF']}
+module: 2
+modules connecting: dict_keys([5, 0, 3, 2, 1])
+2
+
+
+Node: IRAK1
+{3: ['CD40'], 1: ['CHUK', 'IKBKB', 'IL18', 'IL1A', 'IL1B', 'IL1R1', 'IL33', 'IRAK4', 'IRF3', 'IRF5', 'IRF7', 'LY96', 'MYD88', 'NFKB1', 'NFKBIA', 'NOD2', 'RELA', 'TLR1', 'TLR2', 'TLR3', 'TLR4', 'TLR5', 'TLR7', 'TLR8', 'TLR9', 'TNF', 'TRAF3', 'TRAF6'], 0: ['CXCL8'], 2: ['IFNB1', 'IFNG', 'IL10', 'SOCS1', 'STAT1'], 5: ['IL6']}
+module: 1
+modules connecting: dict_keys([3, 1, 0, 2, 5])
+1
+
+
+Node: TNF
+{5: ['ACTB', 'ADIPOQ', 'AGT', 'AKT1', 'ALB', 'APOE', 'BCL2', 'BCL2L1', 'CASP3', 'CASP8', 'CD44', 'CRP', 'CSF1', 'CTNNB1', 'CYBB', 'EDN1', 'EGF', 'EGFR', 'F2', 'F3', 'FGF2', 'FN1', 'FOS', 'GAPDH', 'H3C12', 'H3C13', 'HIF1A', 'IGF1', 'IL6', 'INS', 'JUN', 'KRAS', 'LEP', 'MAPK1', 'MAPK14', 'MAPK3', 'MAPK8', 'MMP1', 'MMP12', 'MMP2', 'MMP3', 'MMP9', 'MPO', 'MYC', 'PPARG', 'PTGS2', 'SERPINE1', 'SRC', 'STAT3', 'TGFB1', 'TIMP1', 'TP53', 'VCAM1'], 1: ['CASP1', 'CHUK', 'HMGB1', 'IKBKB', 'IL18', 'IL1A', 'IL1B', 'IL1R1', 'IL1R2', 'IL1RN', 'IL33', 'IRAK1', 'IRAK4', 'IRF3', 'IRF5', 'IRF7', 'LTA', 'LY96', 'MYD88', 'NFKB1', 'NFKBIA', 'NLRP3', 'NOD2', 'RELA', 'SYK', 'TLR1', 'TLR2', 'TLR3', 'TLR4', 'TLR5', 'TLR7', 'TLR8', 'TLR9', 'TNFAIP3', 'TNFRSF1A', 'TNFRSF1B', 'TNFSF11', 'TNFSF13B', 'TRAF3', 'TRAF6'], 0: ['CCL11', 'CCL17', 'CCL19', 'CCL2', 'CCL20', 'CCL22', 'CCL3', 'CCL3L1', 'CCL4', 'CCL5', 'CCL7', 'CCR2', 'CCR5', 'CCR7', 'CCRL2', 'CX3CL1', 'CXCL1', 'CXCL10', 'CXCL11', 'CXCL12', 'CXCL2', 'CXCL5', 'CXCL8', 'CXCL9', 'CXCR2', 'CXCR3', 'CXCR4', 'IL16', 'PF4'], 3: ['CD163', 'CD19', 'CD27', 'CD274', 'CD28', 'CD34', 'CD4', 'CD40', 'CD40LG', 'CD5', 'CD68', 'CD69', 'CD80', 'CD83', 'CD86', 'CD8A', 'CTLA4', 'FAS', 'FASLG', 'FCGR2A', 'FCGR3A', 'FCGR3B', 'FOXP3', 'GZMB', 'HAVCR2', 'ICAM1', 'ICOS', 'IDO1', 'IGHV3-43D', 'IL17A', 'ITGAM', 'ITGAX', 'ITGB2', 'NCAM1', 'PDCD1', 'PRF1', 'PTPRC', 'SELL', 'TBX21', 'TNFRSF14', 'TNFRSF18', 'TNFRSF4', 'TNFRSF9'], 2: ['CSF2', 'CSF3', 'IFNA1', 'IFNA17', 'IFNA2', 'IFNB1', 'IFNG', 'IFNGR1', 'IFNL1', 'IL10', 'IL10RA', 'IL12B', 'IL13', 'IL15', 'IL17F', 'IL2', 'IL22', 'IL23R', 'IL2RA', 'IL3', 'IL4', 'IL5', 'IL6R', 'IL7', 'IL7R', 'IL9', 'JAK1', 'JAK2', 'LIF', 'OSM', 'SOCS3', 'STAT1', 'STAT4', 'STAT6', 'TYK2']}
+module: 1
+modules connecting: dict_keys([5, 1, 0, 3, 2])
+2
+
+
+Node: TLR4
+{5: ['ACTB', 'AGT', 'AKT1', 'ALB', 'APOE', 'BCL2', 'CASP3', 'CASP8', 'CD44', 'CSF1R', 'CYBB', 'EGFR', 'F3', 'FN1', 'GAPDH', 'GDF5', 'HSP90AA1', 'HSP90AB1', 'IL6', 'INS', 'JUN', 'MAPK14', 'MAPK3', 'MMP9', 'MPO', 'NCF1', 'PPARG', 'PTGS2', 'SERPINE1', 'SRC', 'STAT3', 'TGFB1', 'THBD', 'VCAM1'], 1: ['CASP1', 'CHUK', 'HMGB1', 'IKBKB', 'IL18', 'IL1A', 'IL1B', 'IL1R1', 'IL1RN', 'IL33', 'IRAK1', 'IRAK4', 'IRF3', 'IRF7', 'LY96', 'MYD88', 'NFKB1', 'NFKBIA', 'NLRP3', 'NOD2', 'RELA', 'SYK', 'TLR1', 'TLR2', 'TLR3', 'TLR5', 'TLR7', 'TLR8', 'TLR9', 'TNF', 'TNFRSF1A', 'TRAF3', 'TRAF6'], 0: ['CCL2', 'CCL3', 'CCL4', 'CCL5', 'CCR1', 'CCR2', 'CCR5', 'CXCL1', 'CXCL10', 'CXCL12', 'CXCL2', 'CXCL8', 'CXCR2', 'CXCR4'], 3: ['CD163', 'CD4', 'CD40', 'CD40LG', 'CD68', 'CD80', 'CD86', 'CD8A', 'FCGR2A', 'FCGR3A', 'FCGR3B', 'ICAM1', 'IL17A', 'ITGAM', 'ITGAX', 'PTPRC', 'SELL'], 2: ['CSF2', 'CSF3', 'IFNA1', 'IFNB1', 'IFNG', 'IL10', 'IL13', 'IL2', 'IL4', 'IL6R', 'JAK2', 'SOCS3', 'STAT1']}
+module: 1
+modules connecting: dict_keys([5, 1, 0, 3, 2])
+2
+
+
+Node: EGF
+{5: ['ACTB', 'AKT1', 'ALB', 'CASP3', 'CD44', 'CSF1', 'CSF1R', 'CTNNB1', 'EDN1', 'EGFR', 'ERBB2', 'ESR1', 'FGF2', 'FN1', 'FOS', 'FYN', 'GAPDH', 'GRB2', 'HIF1A', 'HSP90AA1', 'IGF1', 'IL6', 'INS', 'JUN', 'KIT', 'KRAS', 'MAPK1', 'MAPK3', 'MAPK8', 'MMP1', 'MMP9', 'MYC', 'PDGFRA', 'PDGFRB', 'PTK2', 'PTPN11', 'SRC', 'STAT3', 'TGFB1', 'TIMP1', 'TP53', 'VEGFC'], 0: ['CCL11', 'CCL5', 'CX3CL1', 'CXCL1', 'CXCL12', 'CXCL8', 'CXCR4'], 2: ['CSF2', 'CSF3', 'CSF3R', 'IFNAR1', 'IFNAR2', 'IFNG', 'IFNGR1', 'IL10', 'IL10RA', 'IL13RA1', 'IL13RA2', 'IL2', 'IL2RA', 'IL2RG', 'IL4R', 'IL6R', 'IL6ST', 'IL7R', 'LEPR', 'LIFR'], 1: ['IL1A', 'IL1B', 'TNF'], 3: ['PTPRC']}
+module: 5
+modules connecting: dict_keys([5, 0, 2, 1, 3])
+2
+
+
+Node: SRC
+{5: ['ACTB', 'AGT', 'AKT1', 'BCL2', 'CASP8', 'CD44', 'CSF1', 'CSF1R', 'CTNNB1', 'CYBB', 'EGF', 'EGFR', 'ERBB2', 'ESR1', 'ESR2', 'FN1', 'FOS', 'FYN', 'GAPDH', 'GRB2', 'HIF1A', 'HSP90AA1', 'HSP90AB1', 'IGF1', 'IL6', 'INS', 'JUN', 'KIT', 'KRAS', 'MAPK1', 'MAPK14', 'MAPK3', 'MAPK8', 'MMP2', 'MMP9', 'MYC', 'NCF1', 'PDGFRA', 'PDGFRB', 'PLAUR', 'PLEK2', 'PPARG', 'PTGS2', 'PTK2', 'PTPN11', 'RUNX1', 'STAT3', 'TGFB1', 'TP53'], 0: ['CCL2', 'CCL21', 'CCL5', 'CCR3', 'CCR7', 'CX3CR1', 'CXCL12', 'CXCL8', 'CXCR2', 'CXCR4'], 3: ['CD28', 'CD4', 'CD8A', 'CTLA4', 'FAS', 'FCGR2A', 'FCGR3A', 'ITGAM', 'ITGAX', 'ITGB2', 'LCK'], 1: ['CHUK', 'IKBKB', 'MYD88', 'NFKB1', 'NFKBIA', 'SYK', 'TLR3', 'TLR4', 'TNF', 'TNFRSF1A', 'TNFSF11', 'TRAF3', 'TRAF6'], 2: ['IL6R', 'JAK2', 'PTPN2', 'STAT1', 'STAT5A', 'STAT5B']}
+module: 5
+modules connecting: dict_keys([5, 0, 3, 1, 2])
+2
+
+
+Node: IL15
+{0: ['CCL11', 'CCL17', 'CCL2', 'CCL3', 'CCL4', 'CCL5', 'CXCL10', 'CXCL8', 'CXCL9'], 3: ['CD19', 'CD274', 'CD28', 'CD4', 'CD40', 'CD40LG', 'CD69', 'CD80', 'CD8A', 'FCGR3A', 'FCGR3B', 'FOXP3', 'GZMB', 'ICAM1', 'IL17A', 'NCAM1', 'PRF1', 'SELL', 'TBX21', 'TNFRSF9'], 5: ['CD44', 'EGFR', 'IL6', 'PDGFRA', 'PDGFRB', 'STAT3'], 2: ['CSF2', 'CSF2RB', 'CSF3', 'CSF3R', 'IFNA1', 'IFNA2', 'IFNAR1', 'IFNAR2', 'IFNG', 'IFNGR1', 'IFNLR1', 'IL10', 'IL10RA', 'IL10RB', 'IL11RA', 'IL12RB1', 'IL12RB2', 'IL13', 'IL13RA1', 'IL13RA2', 'IL2', 'IL20RA', 'IL21', 'IL21R', 'IL22', 'IL22RA1', 'IL23R', 'IL27RA', 'IL2RA', 'IL2RB', 'IL2RG', 'IL3', 'IL3RA', 'IL4', 'IL4R', 'IL5', 'IL5RA', 'IL6R', 'IL6ST', 'IL7', 'IL7R', 'IL9', 'JAK1', 'JAK3', 'LEPR', 'LIFR', 'STAT1', 'STAT5A', 'STAT5B'], 1: ['IL18', 'IL1A', 'IL1B', 'IL1R1', 'IL33', 'LTA', 'TNF', 'TNFRSF1A', 'TNFSF13B']}
+module: 2
+modules connecting: dict_keys([0, 3, 5, 2, 1])
+2
+
+
+Node: CD28
+{5: ['AKT1', 'CD44', 'ERBB2', 'FYN', 'GRB2', 'IL6', 'SRC'], 0: ['CCR5', 'CCR7', 'CXCR3', 'CXCR5'], 3: ['CD19', 'CD2', 'CD27', 'CD274', 'CD38', 'CD4', 'CD40', 'CD40LG', 'CD5', 'CD69', 'CD80', 'CD83', 'CD86', 'CD8A', 'CTLA4', 'FAS', 'FCGR2A', 'FCGR3A', 'FCGR3B', 'FOXP3', 'GZMB', 'HAVCR2', 'ICAM1', 'ICOS', 'IDO1', 'IL17A', 'LAG3', 'LCK', 'NCAM1', 'PDCD1', 'PRF1', 'PTPRC', 'SELL', 'TBX21', 'TNFRSF18', 'TNFRSF4', 'TNFRSF9'], 2: ['CSF2', 'IFNG', 'IL10', 'IL13', 'IL15', 'IL2', 'IL2RA', 'IL2RB', 'IL4', 'IL5', 'IL7', 'IL7R'], 1: ['IL1A', 'IL1B', 'NFKB1', 'PRKCQ', 'TNF']}
+module: 3
+modules connecting: dict_keys([5, 0, 3, 2, 1])
+2
+
+
+Node: EGFR
+{5: ['ACTB', 'AKT1', 'ALB', 'BCL2', 'BCL2L1', 'CASP3', 'CASP8', 'CD44', 'CSF1', 'CTNNB1', 'EGF', 'ERBB2', 'ESR1', 'ESR2', 'FGF2', 'FN1', 'FOS', 'FYN', 'GAPDH', 'GRB2', 'HDAC1', 'HIF1A', 'HSP90AA1', 'HSP90AB1', 'IGF1', 'IGF2', 'IGFBP3', 'IL6', 'INS', 'JUN', 'KRAS', 'LCN2', 'LEP', 'MAPK14', 'MAPK8', 'MMP3', 'MMP9', 'MYC', 'PDGFRA', 'PDGFRB', 'PLAUR', 'PPARG', 'PTGS2', 'PTK2', 'PTPN11', 'SRC', 'STAT3', 'TGFB1', 'TP53', 'VEGFC'], 0: ['CCL2', 'CXCL12', 'CXCL8'], 3: ['CD274', 'FCGR3A', 'ICAM1', 'IGHV3-43D', 'ITGB2', 'LCK', 'PDCD1', 'PTPRC', 'TNFRSF9'], 2: ['CSF2', 'CSF3', 'EPO', 'IFNA1', 'IFNA17', 'IFNA2', 'IFNB1', 'IFNG', 'IL10', 'IL11', 'IL13', 'IL13RA2', 'IL15', 'IL2', 'IL22', 'IL24', 'IL3', 'IL4', 'IL5', 'IL7', 'IL9', 'JAK1', 'JAK2', 'JAK3', 'LIF', 'OSM', 'PTPN2', 'SOCS1', 'SOCS3', 'STAT1', 'STAT2', 'STAT5A', 'STAT5B', 'TSLP', 'TYK2'], 1: ['IL1A', 'IL1B', 'NFKB1', 'RELA', 'TLR2', 'TLR3', 'TLR4', 'TNF', 'TNFRSF1A', 'TNFSF11', 'TRAF6']}
+module: 5
+modules connecting: dict_keys([5, 0, 3, 2, 1])
+2
+
+
+Node: TYK2
+{2: ['CSF2RB', 'CSF3R', 'EPO', 'IFNA1', 'IFNA17', 'IFNA2', 'IFNAR1', 'IFNAR2', 'IFNB1', 'IFNG', 'IFNGR1', 'IFNL1', 'IFNLR1', 'IL10', 'IL10RA', 'IL10RB', 'IL11', 'IL11RA', 'IL12B', 'IL12RB1', 'IL12RB2', 'IL13', 'IL13RA1', 'IL13RA2', 'IL2', 'IL20RA', 'IL20RB', 'IL21R', 'IL22', 'IL22RA1', 'IL23A', 'IL23R', 'IL27RA', 'IL2RA', 'IL2RB', 'IL2RG', 'IL3RA', 'IL4', 'IL4R', 'IL5RA', 'IL6R', 'IL6ST', 'IL7R', 'JAK1', 'JAK2', 'JAK3', 'LEPR', 'LIFR', 'OSM', 'PTPN2', 'SOCS1', 'SOCS3', 'STAT1', 'STAT2', 'STAT4', 'STAT5A', 'STAT5B', 'STAT6'], 5: ['EGFR', 'GRB2', 'IL6', 'PDGFRB', 'PLAUR', 'PTPN11', 'STAT3'], 1: ['IRF3', 'IRF5', 'SYK', 'TNF']}
+module: 2
+modules connecting: dict_keys([2, 5, 1])
+1
+
+
+Node: IFNA1
+{5: ['ALB', 'EGFR', 'GAPDH', 'IL6', 'PDGFRA', 'PDGFRB'], 0: ['CCL2', 'CCL3', 'CCL4', 'CCL5', 'CXCL10', 'CXCL11', 'CXCL8', 'CXCL9'], 3: ['CD274', 'CD4', 'CD40', 'CD80', 'CD86', 'CD8A', 'GZMB', 'ICAM1', 'IGHV3-43D', 'IL17A', 'ITGAX'], 2: ['CSF2', 'CSF2RB', 'CSF3R', 'IFNA17', 'IFNAR1', 'IFNAR2', 'IFNB1', 'IFNG', 'IFNGR1', 'IFNL1', 'IFNLR1', 'IL10', 'IL10RA', 'IL10RB', 'IL12RB1', 'IL12RB2', 'IL13', 'IL13RA1', 'IL13RA2', 'IL15', 'IL2', 'IL21R', 'IL22', 'IL22RA1', 'IL23R', 'IL27RA', 'IL2RA', 'IL2RB', 'IL2RG', 'IL3', 'IL3RA', 'IL4', 'IL4R', 'IL5', 'IL5RA', 'IL6R', 'IL6ST', 'IL7R', 'IL9', 'JAK1', 'JAK2', 'JAK3', 'LIFR', 'SOCS1', 'SOCS3', 'STAT1', 'STAT2', 'STAT4', 'TYK2'], 1: ['IL18', 'IL1A', 'IL1B', 'IL1R1', 'IRF3', 'IRF7', 'LTA', 'MYD88', 'NFKB1', 'RELA', 'TLR1', 'TLR2', 'TLR3', 'TLR4', 'TLR7', 'TLR8', 'TLR9', 'TNF']}
+module: 2
+modules connecting: dict_keys([5, 0, 3, 2, 1])
+2
+
+
+Node: IL1A
+{5: ['ALB', 'CASP3', 'CD44', 'CRP', 'CSF1', 'EGF', 'EGFR', 'FGF2', 'FN1', 'FOS', 'IL6', 'INS', 'JUN', 'LEP', 'MAPK3', 'MMP1', 'MMP3', 'MMP9', 'MPO', 'PTGS2', 'SERPINE1', 'STAT3', 'TGFB1', 'VCAM1'], 1: ['CASP1', 'CHUK', 'HMGB1', 'IKBKB', 'IL18', 'IL1B', 'IL1R1', 'IL1R2', 'IL1RN', 'IL33', 'IRAK1', 'IRAK4', 'LTA', 'MYD88', 'NFKB1', 'NFKBIA', 'NLRP3', 'RELA', 'TLR2', 'TLR3', 'TLR4', 'TLR5', 'TLR7', 'TLR9', 'TNF', 'TNFRSF1A', 'TNFRSF1B', 'TNFSF11', 'TRAF6'], 0: ['CCL11', 'CCL2', 'CCL20', 'CCL22', 'CCL27', 'CCL3', 'CCL3L1', 'CCL4', 'CCL5', 'CCR2', 'CX3CL1', 'CXCL1', 'CXCL10', 'CXCL2', 'CXCL3', 'CXCL5', 'CXCL6', 'CXCL8', 'CXCL9', 'CXCR2', 'CXCR4', 'IL16'], 3: ['CD28', 'CD4', 'CD40', 'CD40LG', 'CD80', 'CD86', 'CD8A', 'ICAM1', 'IL17A', 'ITGAM', 'PTPRC'], 2: ['CSF2', 'CSF3', 'IFNA1', 'IFNA2', 'IFNB1', 'IFNG', 'IL10', 'IL11', 'IL13', 'IL15', 'IL17F', 'IL2', 'IL22', 'IL3', 'IL4', 'IL5', 'IL6R', 'IL7', 'IL7R', 'IL9', 'LIF', 'OSM', 'STAT1']}
+module: 1
+modules connecting: dict_keys([5, 1, 0, 3, 2])
+2
+
+
+Node: TP53
+{5: ['ACTB', 'AKT1', 'ALB', 'BCL2', 'BCL2L1', 'CASP3', 'CASP8', 'CD44', 'CDK6', 'CTNNB1', 'DDIT4', 'EGF', 'EGFR', 'ERBB2', 'ESR1', 'ESR2', 'FGF2', 'FOS', 'GAPDH', 'GRB2', 'H3C12', 'H3C13', 'HDAC1', 'HIF1A', 'HSP90AA1', 'HSP90AB1', 'IGF1', 'IGF2', 'IGFBP3', 'IL6', 'INS', 'JUN', 'KIT', 'KRAS', 'MAPK1', 'MAPK14', 'MAPK3', 'MAPK8', 'MMP9', 'MYC', 'PADI4', 'PDGFRA', 'PPARG', 'PRDM1', 'PTGS2', 'PTK2', 'RUNX1', 'RUNX2', 'SRC', 'STAT3', 'TGFB1', 'TXNIP', 'VIM'], 1: ['CASP1', 'CHUK', 'HMGB1', 'IKBKB', 'IL1B', 'MYD88', 'NFKB1', 'NFKBIA', 'RELA', 'TNF', 'TNFAIP3', 'TNFRSF1A', 'TRAF6'], 3: ['CD274', 'CD34', 'CD38', 'CD4', 'CD8A', 'FAS', 'FASLG', 'ICAM1'], 2: ['CSF2', 'GATA3', 'IFNG', 'IL10', 'IL2', 'IL4', 'JAK1', 'JAK2', 'SOCS1', 'STAT1', 'STAT5A', 'STAT5B', 'STAT6'], 0: ['CXCL8', 'MIF'], 6: ['TYMS']}
+module: 5
+modules connecting: dict_keys([5, 1, 3, 2, 0, 6])
+2
+
+
+Node: IL2
+{5: ['ALB', 'BCL2', 'BCL2L1', 'CD44', 'CRP', 'EGF', 'EGFR', 'FGF2', 'FN1', 'FOS', 'GAPDH', 'IL6', 'INS', 'JUN', 'KRAS', 'MYC', 'PDGFRA', 'PDGFRB', 'RUNX1', 'STAT3', 'TGFB1', 'TP53'], 0: ['CCL11', 'CCL17', 'CCL2', 'CCL22', 'CCL3', 'CCL4', 'CCL5', 'CCR2', 'CCR5', 'CCR6', 'CCR7', 'CX3CL1', 'CXCL1', 'CXCL10', 'CXCL8', 'CXCL9', 'CXCR3'], 3: ['CD19', 'CD2', 'CD27', 'CD274', 'CD28', 'CD4', 'CD40', 'CD40LG', 'CD5', 'CD69', 'CD80', 'CD86', 'CD8A', 'CTLA4', 'FASLG', 'FCGR3A', 'FCGR3B', 'FOXP3', 'GZMB', 'HAVCR2', 'ICAM1', 'ICOS', 'IDO1', 'IL17A', 'ITGAM', 'ITGAX', 'LAG3', 'LCK', 'NCAM1', 'PDCD1', 'PRF1', 'PTPRC', 'SELL', 'TBX21', 'TNFRSF18', 'TNFRSF4', 'TNFRSF9'], 2: ['CSF2', 'CSF2RB', 'CSF3', 'CSF3R', 'GATA3', 'IFNA1', 'IFNA17', 'IFNA2', 'IFNAR1', 'IFNAR2', 'IFNB1', 'IFNG', 'IFNGR1', 'IFNLR1', 'IL10', 'IL10RA', 'IL10RB', 'IL11', 'IL11RA', 'IL12RB1', 'IL12RB2', 'IL13', 'IL13RA1', 'IL13RA2', 'IL15', 'IL17F', 'IL20RA', 'IL21', 'IL21R', 'IL22', 'IL22RA1', 'IL23R', 'IL27RA', 'IL2RA', 'IL2RB', 'IL2RG', 'IL3', 'IL3RA', 'IL4', 'IL4R', 'IL5', 'IL5RA', 'IL6R', 'IL6ST', 'IL7', 'IL7R', 'IL9', 'IRF4', 'JAK1', 'JAK2', 'JAK3', 'LEPR', 'LIFR', 'STAT1', 'STAT4', 'STAT5A', 'STAT5B', 'STAT6', 'TYK2'], 1: ['IL18', 'IL1A', 'IL1B', 'IL1R1', 'IL33', 'LTA', 'MYD88', 'NFKB1', 'RELA', 'SYK', 'TLR3', 'TLR4', 'TLR9', 'TNF', 'TNFRSF1A']}
+module: 2
+modules connecting: dict_keys([5, 0, 3, 2, 1])
+2
+
+
+Node: NFKB1
+{5: ['ACTB', 'AKT1', 'BCL2', 'BCL2A1', 'CASP3', 'CTNNB1', 'EGFR', 'ERBB2', 'ESR1', 'FN1', 'FOS', 'GAPDH', 'HDAC1', 'HIF1A', 'HSP90AB1', 'IL6', 'INS', 'JUN', 'KRAS', 'MAPK1', 'MAPK14', 'MAPK3', 'MAPK8', 'MMP9', 'MYC', 'PPARG', 'PTGS2', 'SRC', 'STAT3', 'TGFB1', 'TIMP1', 'TP53', 'VCAM1', 'VIM'], 1: ['CASP1', 'CHUK', 'HMGB1', 'IKBKB', 'IL18', 'IL1A', 'IL1B', 'IL1R1', 'IRAK1', 'IRAK4', 'IRF3', 'IRF7', 'LY96', 'MYD88', 'NFKBIA', 'NLRP3', 'NOD2', 'PRKCQ', 'RELA', 'SYK', 'TLR1', 'TLR2', 'TLR3', 'TLR4', 'TLR5', 'TLR7', 'TLR9', 'TNF', 'TNFAIP3', 'TNFRSF1A', 'TNFRSF1B', 'TNFSF11', 'TNFSF13B', 'TRAF3', 'TRAF6'], 0: ['CCL2', 'CCL20', 'CCL3', 'CCL5', 'CXCL1', 'CXCL10', 'CXCL2', 'CXCL3', 'CXCL8', 'CXCR4'], 3: ['CD28', 'CD4', 'CD40', 'CD40LG', 'CD80', 'CD86', 'CD8A', 'FOXP3', 'ICAM1', 'IL17A'], 2: ['CSF2', 'GATA3', 'IFNA1', 'IFNA17', 'IFNA2', 'IFNB1', 'IFNG', 'IL10', 'IL2', 'IL4', 'IRF4', 'SOCS1', 'STAT1', 'STAT5A', 'STAT5B', 'STAT6']}
+module: 1
+modules connecting: dict_keys([5, 1, 0, 3, 2])
+2
+
+
+Node: INS
+{5: ['ACTB', 'ADIPOQ', 'AGT', 'AKT1', 'ALB', 'APOE', 'BCL2', 'CASP3', 'CRP', 'CSF1R', 'CTNNB1', 'CTSD', 'EDN1', 'EGF', 'EGFR', 'ERBB2', 'ESR1', 'FGF2', 'FN1', 'GAPDH', 'GRB2', 'IGF1', 'IGF2', 'IGFBP3', 'IL6', 'JUN', 'KIT', 'LEP', 'MAPK1', 'MAPK14', 'MAPK3', 'MAPK8', 'MYC', 'PDGFRA', 'PDGFRB', 'PPARG', 'SERPINE1', 'SRC', 'STAT3', 'TGFB1', 'TP53'], 0: ['CCL2'], 3: ['CD4', 'CTLA4'], 2: ['CSF3', 'EPO', 'IFNG', 'IL10', 'IL2', 'IL3', 'LEPR'], 1: ['IKBKB', 'IL18', 'IL1A', 'IL1B', 'NFKB1', 'TLR4', 'TNF']}
+module: 5
+modules connecting: dict_keys([5, 0, 3, 2, 1])
+1
+
+
+Node: GAPDH
+{5: ['ACAN', 'ACTB', 'AKT1', 'ALB', 'BCL2', 'BCL2L1', 'CASP3', 'CASP8', 'CD44', 'CSF1', 'CTNNB1', 'EGF', 'EGFR', 'ERBB2', 'ESR1', 'FGF2', 'FN1', 'FOS', 'H3C12', 'H3C13', 'HDAC1', 'HIF1A', 'HSP90AA1', 'HSP90AB1', 'IL6', 'INS', 'JUN', 'MAPK1', 'MAPK3', 'MMP2', 'MMP3', 'MMP9', 'MYC', 'PLAUR', 'PPARG', 'PTGS2', 'RUNX2', 'SERPINE1', 'SRC', 'STAT3', 'TGFB1', 'TP53', 'VIM'], 0: ['CCL2'], 3: ['CD4', 'CD68', 'ITGAM', 'PTPRC'], 1: ['HMGB1', 'IL1B', 'IRF3', 'NFKB1', 'NFKBIA', 'TLR4', 'TNF'], 2: ['IFNA1', 'IFNG', 'IL10', 'IL2', 'IL4']}
+module: 5
+modules connecting: dict_keys([5, 0, 3, 1, 2])
+1
+
+
+Node: CTLA4
+{5: ['AKT1', 'FYN', 'IL6', 'INS', 'LCN2', 'PTPN11', 'RUNX1', 'SRC'], 0: ['CCL22', 'CCR2', 'CCR7', 'CXCL9', 'CXCR3', 'CXCR6'], 3: ['CD19', 'CD2', 'CD27', 'CD274', 'CD28', 'CD38', 'CD4', 'CD40', 'CD40LG', 'CD68', 'CD69', 'CD80', 'CD86', 'CD8A', 'FASLG', 'FCGR3A', 'FOXP3', 'GZMB', 'HAVCR2', 'ICAM1', 'ICOS', 'IDO1', 'IGHV3-43D', 'IL17A', 'ITGAX', 'LAG3', 'LCK', 'PDCD1', 'PRF1', 'PTPRC', 'SELL', 'TBX21', 'TNFRSF14', 'TNFRSF18', 'TNFRSF4', 'TNFRSF9'], 2: ['CSF2', 'GATA3', 'IFNG', 'IL10', 'IL10RA', 'IL2', 'IL2RA', 'IL4', 'IL7R', 'JAK3', 'STAT1', 'STAT5A', 'STAT5B'], 1: ['TNF']}
+module: 3
+modules connecting: dict_keys([5, 0, 3, 2, 1])
+2
+
+
+Node: ACTB
+{5: ['AKT1', 'ALB', 'BCL2', 'BCL2L1', 'CASP3', 'CASP8', 'CD44', 'CTNNB1', 'CYBB', 'EGF', 'EGFR', 'ERBB2', 'ESR1', 'FGF2', 'FN1', 'FOS', 'GAPDH', 'GRB2', 'H3C12', 'H3C13', 'HDAC1', 'HIF1A', 'HSP90AA1', 'HSP90AB1', 'IL6', 'INS', 'JUN', 'MAPK1', 'MAPK3', 'MMP9', 'MYC', 'NCF1', 'PPARG', 'PTGS2', 'SRC', 'STAT3', 'TGFB1', 'TP53', 'VIM'], 1: ['CASP1', 'IL1B', 'NFKB1', 'NFKBIA', 'TLR4', 'TNF'], 3: ['CD4', 'ITGAM', 'PTPRC'], 0: ['CXCL8'], 2: ['IFNG', 'IL10', 'IL4']}
+module: 5
+modules connecting: dict_keys([5, 1, 3, 0, 2])
+1
+
+
+Node: CSF2
+{0: ['CCL11', 'CCL19', 'CCL2', 'CCL20', 'CCL21', 'CCL22', 'CCL3', 'CCL3L1', 'CCL4', 'CCL5', 'CCR5', 'CX3CL1', 'CXCL1', 'CXCL10', 'CXCL2', 'CXCL3', 'CXCL5', 'CXCL8', 'CXCL9'], 3: ['CD19', 'CD1C', 'CD274', 'CD28', 'CD34', 'CD4', 'CD40', 'CD40LG', 'CD80', 'CD83', 'CD86', 'CD8A', 'CTLA4', 'FASLG', 'FCGR3A', 'FCGR3B', 'FOXP3', 'GZMB', 'ICAM1', 'IGHV3-43D', 'IL17A', 'ITGAM', 'ITGAX', 'PTPRC'], 5: ['CD44', 'CSF1', 'CSF1R', 'EGF', 'EGFR', 'FGF2', 'IL6', 'KIT', 'PDGFRA', 'PDGFRB', 'PTPN11', 'RUNX1', 'STAT3', 'TGFB1', 'TP53'], 2: ['CSF2RB', 'CSF3', 'CSF3R', 'EPO', 'IFNA1', 'IFNA2', 'IFNAR1', 'IFNAR2', 'IFNB1', 'IFNG', 'IFNGR1', 'IFNLR1', 'IL10', 'IL10RA', 'IL10RB', 'IL11', 'IL12RB1', 'IL12RB2', 'IL13', 'IL13RA1', 'IL13RA2', 'IL15', 'IL17F', 'IL2', 'IL20RA', 'IL20RB', 'IL21R', 'IL22', 'IL22RA1', 'IL23R', 'IL27RA', 'IL2RA', 'IL2RB', 'IL2RG', 'IL3', 'IL3RA', 'IL4', 'IL4R', 'IL5', 'IL5RA', 'IL6R', 'IL6ST', 'IL7', 'IL7R', 'IL9', 'JAK1', 'JAK2', 'JAK3', 'LEPR', 'LIF', 'LIFR', 'STAT5A', 'STAT5B'], 1: ['IL18', 'IL1A', 'IL1B', 'IL1R1', 'IL33', 'LTA', 'NFKB1', 'TLR2', 'TLR4', 'TNF']}
+module: 2
+modules connecting: dict_keys([0, 3, 5, 2, 1])
+2
+
+
+Node: TLR2
+{5: ['AKT1', 'ALB', 'CD44', 'CSF1R', 'CYBB', 'EGFR', 'FN1', 'HSP90AA1', 'HSP90AB1', 'IL6', 'MMP9', 'PTGS2', 'VCAM1'], 1: ['CASP1', 'HMGB1', 'IL18', 'IL1A', 'IL1B', 'IL1R1', 'IL33', 'IRAK1', 'IRAK4', 'IRF3', 'IRF7', 'LY96', 'MYD88', 'NFKB1', 'NFKBIA', 'NLRP3', 'NOD2', 'RELA', 'SYK', 'TLR1', 'TLR3', 'TLR4', 'TLR5', 'TLR8', 'TLR9', 'TNF', 'TNFRSF1A', 'TRAF6'], 0: ['CCL2', 'CCL3', 'CCL4', 'CCL5', 'CCR2', 'CX3CR1', 'CXCL1', 'CXCL10', 'CXCL2', 'CXCL8', 'CXCL9', 'CXCR2', 'CXCR4'], 3: ['CD163', 'CD4', 'CD40', 'CD40LG', 'CD80', 'CD86', 'CD8A', 'FCGR2A', 'FCGR3A', 'ICAM1', 'IL17A', 'ITGAM', 'ITGAX', 'ITGB2', 'PTPRC'], 2: ['CSF2', 'IFNA1', 'IFNB1', 'IFNG', 'IL10', 'IL13', 'IL4', 'SOCS3']}
+module: 1
+modules connecting: dict_keys([5, 1, 0, 3, 2])
+2
+
+
+Node: IFNG
+{5: ['ACTB', 'AKT1', 'ALB', 'APOE', 'BCL2', 'CASP3', 'CD44', 'CRP', 'CSF1', 'CTNNB1', 'EGF', 'EGFR', 'FOS', 'GAPDH', 'IGF1', 'IL6', 'INS', 'JUN', 'LCN2', 'MAPK14', 'MAPK3', 'MMP1', 'MMP3', 'MMP9', 'MPO', 'PDGFRA', 'PDGFRB', 'PTGS2', 'PTPN11', 'RUNX1', 'SERPINE1', 'STAT3', 'TGFB1', 'TIMP1', 'TP53', 'VCAM1'], 1: ['CASP1', 'HMGB1', 'IL18', 'IL1A', 'IL1B', 'IL1R1', 'IL1R2', 'IL33', 'IRAK1', 'IRF3', 'IRF7', 'LTA', 'MYD88', 'NFKB1', 'NFKBIA', 'NOD2', 'TLR1', 'TLR2', 'TLR3', 'TLR4', 'TLR5', 'TLR7', 'TLR8', 'TLR9', 'TNF', 'TNFRSF1A', 'TNFRSF1B', 'TNFSF13B', 'TRAF6'], 0: ['CCL11', 'CCL17', 'CCL19', 'CCL2', 'CCL20', 'CCL21', 'CCL22', 'CCL3', 'CCL4', 'CCL5', 'CCL7', 'CCR2', 'CCR3', 'CCR5', 'CCR6', 'CCR7', 'CCRL2', 'CX3CL1', 'CXCL1', 'CXCL10', 'CXCL11', 'CXCL12', 'CXCL13', 'CXCL2', 'CXCL5', 'CXCL8', 'CXCL9', 'CXCR2', 'CXCR3', 'CXCR4', 'CXCR5', 'CXCR6'], 3: ['CD163', 'CD19', 'CD1C', 'CD2', 'CD27', 'CD274', 'CD28', 'CD38', 'CD4', 'CD40', 'CD40LG', 'CD68', 'CD69', 'CD80', 'CD83', 'CD86', 'CD8A', 'CTLA4', 'FASLG', 'FCGR2A', 'FCGR3A', 'FCGR3B', 'FOXP3', 'GZMB', 'HAVCR2', 'ICAM1', 'ICOS', 'IDO1', 'IL17A', 'ITGAM', 'ITGAX', 'LAG3', 'LCK', 'NCAM1', 'PDCD1', 'PRF1', 'PTPRC', 'SELL', 'TBX21', 'TNFRSF4', 'TNFRSF9'], 2: ['CSF2', 'CSF2RB', 'CSF3', 'CSF3R', 'EPO', 'GATA3', 'IFNA1', 'IFNA17', 'IFNA2', 'IFNAR1', 'IFNAR2', 'IFNB1', 'IFNGR1', 'IFNL1', 'IFNLR1', 'IL10', 'IL10RA', 'IL10RB', 'IL11RA', 'IL12B', 'IL12RB1', 'IL12RB2', 'IL13', 'IL13RA1', 'IL13RA2', 'IL15', 'IL17F', 'IL2', 'IL20RA', 'IL20RB', 'IL21', 'IL21R', 'IL22', 'IL22RA1', 'IL23A', 'IL23R', 'IL27RA', 'IL2RA', 'IL2RB', 'IL2RG', 'IL3', 'IL3RA', 'IL4', 'IL4R', 'IL5', 'IL5RA', 'IL6R', 'IL6ST', 'IL7', 'IL7R', 'IL9', 'IRF4', 'JAK1', 'JAK2', 'LEPR', 'LIFR', 'SOCS1', 'SOCS3', 'STAT1', 'STAT2', 'STAT4', 'STAT5A', 'STAT5B', 'STAT6', 'TSLP', 'TYK2']}
+module: 2
+modules connecting: dict_keys([5, 1, 0, 3, 2])
+2
+
+
+Node: MMP9
+{5: ['ACAN', 'ACTB', 'AGT', 'AKT1', 'ALB', 'APOE', 'BCL2', 'CASP3', 'CASP8', 'CD44', 'CRP', 'CTNNB1', 'CYBB', 'EDN1', 'EGF', 'EGFR', 'ESR1', 'FGF2', 'FN1', 'GAPDH', 'HIF1A', 'IGF1', 'IL6', 'JUN', 'LCN2', 'MAPK3', 'MAPK8', 'MMP1', 'MMP2', 'MMP3', 'MPO', 'MYC', 'NCF1', 'NCF2', 'NCF4', 'PLAUR', 'PPARG', 'PTGS2', 'SERPINE1', 'SRC', 'STAT3', 'TGFB1', 'TIMP1', 'TP53', 'VCAM1', 'VIM'], 0: ['CCL2', 'CCL5', 'CCR7', 'CXCL1', 'CXCL10', 'CXCL12', 'CXCL13', 'CXCL5', 'CXCL8', 'CXCR2', 'CXCR4'], 3: ['CD34', 'CD4', 'CD68', 'ICAM1', 'IL17A', 'ITGAM', 'ITGB2', 'PTPRC'], 2: ['IFNAR1', 'IFNG', 'IL10', 'IL13', 'STAT1', 'STAT6'], 1: ['IL1A', 'IL1B', 'NFKB1', 'NFKBIA', 'TLR2', 'TLR4', 'TNF', 'TNFSF11']}
+module: 5
+modules connecting: dict_keys([5, 0, 3, 2, 1])
+2
+
+
+Node: STAT3
+{5: ['ABCB1', 'ACTB', 'AGT', 'AKT1', 'BCL2', 'BCL2L1', 'CASP3', 'CD44', 'CDK6', 'CSF1', 'CSF1R', 'CTNNB1', 'EGF', 'EGFR', 'ERBB2', 'ESR1', 'FGF2', 'FN1', 'FOS', 'FYN', 'GAPDH', 'GRB2', 'HDAC1', 'HIF1A', 'HSP90AA1', 'HSP90AB1', 'IGF1', 'IL6', 'INS', 'JUN', 'KIT', 'KRAS', 'LCN2', 'LEP', 'MAPK1', 'MAPK14', 'MAPK3', 'MAPK8', 'MMP1', 'MMP2', 'MMP3', 'MMP9', 'MYC', 'PDGFRA', 'PDGFRB', 'PPARG', 'PRDM1', 'PTGS2', 'PTK2', 'PTPN11', 'RUNX1', 'RUNX2', 'SRC', 'TGFB1', 'TIMP1', 'TP53', 'VCAM1', 'VIM'], 0: ['CCL2', 'CCL20', 'CCL22', 'CCL3', 'CCL4', 'CCL5', 'CCR1', 'CCR2', 'CCR5', 'CXCL1', 'CXCL10', 'CXCL2', 'CXCL8', 'CXCR4'], 3: ['CD19', 'CD274', 'CD4', 'CD80', 'CD86', 'CD8A', 'FASLG', 'FOXP3', 'ICAM1', 'IL17A', 'ITGAM', 'ITGAX', 'LCK', 'TBX21'], 2: ['CSF2', 'CSF3', 'CSF3R', 'GATA3', 'IFNAR1', 'IFNB1', 'IFNG', 'IFNGR1', 'IL10', 'IL10RA', 'IL10RB', 'IL11', 'IL12RB1', 'IL12RB2', 'IL13', 'IL13RA1', 'IL15', 'IL17F', 'IL19', 'IL2', 'IL20RA', 'IL20RB', 'IL21', 'IL21R', 'IL22', 'IL22RA1', 'IL23A', 'IL23R', 'IL24', 'IL27RA', 'IL2RB', 'IL2RG', 'IL3', 'IL4', 'IL4R', 'IL6R', 'IL6ST', 'IL7R', 'IL9', 'IRF4', 'JAK1', 'JAK2', 'JAK3', 'LEPR', 'LIF', 'LIFR', 'OSM', 'PTPN2', 'SOCS1', 'SOCS3', 'STAT1', 'STAT2', 'STAT4', 'STAT5A', 'STAT5B', 'STAT6', 'TSLP', 'TYK2'], 1: ['IKBKB', 'IL18', 'IL1A', 'IL1B', 'IL1R1', 'IL1RN', 'IRF7', 'MYD88', 'NFKB1', 'NFKBIA', 'RELA', 'SYK', 'TLR4', 'TLR7', 'TNF', 'TNFRSF1A', 'TRAF6']}
+module: 5
+modules connecting: dict_keys([5, 0, 3, 2, 1])
+2
+
+
+Node: TRAF6
+{5: ['AKT1', 'CASP8', 'EGFR', 'FYN', 'HIF1A', 'IL6', 'JUN', 'MAPK8', 'PTPN11', 'SRC', 'STAT3', 'TP53'], 3: ['CD40', 'LCK'], 1: ['CHUK', 'IKBKB', 'IL18', 'IL1A', 'IL1B', 'IL1R1', 'IL33', 'IRAK1', 'IRAK4', 'IRF3', 'IRF5', 'IRF7', 'LY96', 'MYD88', 'NFKB1', 'NFKBIA', 'NOD2', 'PRKCQ', 'RELA', 'SYK', 'TLR1', 'TLR2', 'TLR3', 'TLR4', 'TLR5', 'TLR7', 'TLR8', 'TLR9', 'TNF', 'TNFAIP3', 'TNFRSF1A', 'TNFRSF1B', 'TNFSF11', 'TRAF3'], 0: ['CXCL8'], 2: ['IFNB1', 'IFNG', 'IRF4', 'SOCS1', 'SOCS3', 'STAT1']}
+module: 1
+modules connecting: dict_keys([5, 3, 1, 0, 2])
+2
+
+
+Node: CD86
+{5: ['AKT1', 'ALB', 'CD44', 'CSF1', 'CSF1R', 'IL6', 'STAT3'], 0: ['CCL2', 'CCL3', 'CCL4', 'CCL5', 'CCR2', 'CCR5', 'CCR7', 'CXCL10', 'CXCR4'], 3: ['CD163', 'CD19', 'CD1C', 'CD2', 'CD27', 'CD274', 'CD28', 'CD38', 'CD4', 'CD40', 'CD40LG', 'CD5', 'CD68', 'CD69', 'CD80', 'CD83', 'CD8A', 'CTLA4', 'FASLG', 'FCGR2A', 'FCGR3A', 'FCGR3B', 'FOXP3', 'GZMB', 'HAVCR2', 'ICAM1', 'ICOS', 'IDO1', 'IL17A', 'ITGAM', 'ITGAX', 'ITGB2', 'LAG3', 'LCK', 'PDCD1', 'PTPRC', 'SELL', 'TNFRSF18', 'TNFRSF4', 'TNFRSF9'], 2: ['CSF2', 'IFNA1', 'IFNG', 'IL10', 'IL13', 'IL2', 'IL4', 'IL5'], 1: ['IL1A', 'IL1B', 'IL1R1', 'MYD88', 'NFKB1', 'TLR1', 'TLR2', 'TLR4', 'TLR7', 'TLR8', 'TLR9', 'TNF']}
+module: 3
+modules connecting: dict_keys([5, 0, 3, 2, 1])
+2
+
+
+Node: JUN
+{5: ['ACTB', 'AKT1', 'BCL2', 'BCL2L1', 'CASP3', 'CASP8', 'CDK6', 'CTNNB1', 'EGF', 'EGFR', 'ERBB2', 'ESR1', 'ESR2', 'FOS', 'GAPDH', 'H3C12', 'H3C13', 'HDAC1', 'HIF1A', 'HSP90AA1', 'HSP90AB1', 'IL6', 'INS', 'MAPK1', 'MAPK14', 'MAPK3', 'MAPK8', 'MMP1', 'MMP9', 'MYC', 'PPARG', 'PTGS2', 'RUNX1', 'RUNX2', 'SRC', 'STAT3', 'TGFB1', 'TIMP1', 'TP53'], 0: ['CCL2', 'CCL5', 'CXCL1', 'CXCL2', 'CXCL3', 'CXCL8'], 3: ['FASLG'], 2: ['GATA3', 'IFNG', 'IL2', 'IRF4', 'STAT1', 'STAT5A'], 1: ['IKBKB', 'IL18', 'IL1A', 'IL1B', 'IRF3', 'IRF7', 'MYD88', 'NFKB1', 'NFKBIA', 'RELA', 'TLR4', 'TNF', 'TNFRSF1A', 'TNFSF11', 'TRAF6']}
+module: 5
+modules connecting: dict_keys([5, 0, 3, 2, 1])
+2
+
+
+Node: JAK3
+{0: ['CCR1', 'CCR2', 'CCR3', 'CCR5', 'CCR6', 'CCR7', 'CX3CR1', 'CXCR1', 'CXCR2', 'CXCR3', 'CXCR4', 'CXCR5', 'CXCR6'], 3: ['CD4', 'CTLA4', 'LCK', 'PTPRC'], 2: ['CSF2', 'CSF2RB', 'CSF3', 'CSF3R', 'EPO', 'IFNA1', 'IFNA17', 'IFNA2', 'IFNAR1', 'IFNAR2', 'IFNB1', 'IFNGR1', 'IFNLR1', 'IL10RA', 'IL10RB', 'IL12RB1', 'IL12RB2', 'IL13RA1', 'IL13RA2', 'IL15', 'IL2', 'IL20RA', 'IL20RB', 'IL21', 'IL21R', 'IL22RA1', 'IL23R', 'IL27RA', 'IL2RA', 'IL2RB', 'IL2RG', 'IL3', 'IL3RA', 'IL4', 'IL4R', 'IL5RA', 'IL6R', 'IL6ST', 'IL7', 'IL7R', 'IL9', 'JAK1', 'JAK2', 'LEPR', 'LIFR', 'OSM', 'PTPN2', 'SOCS1', 'SOCS3', 'STAT1', 'STAT2', 'STAT4', 'STAT5A', 'STAT5B', 'STAT6', 'TYK2'], 5: ['EGFR', 'ERBB2', 'IL6', 'KRAS', 'PDGFRA', 'PDGFRB', 'PTPN11', 'STAT3']}
+module: 2
+modules connecting: dict_keys([0, 3, 2, 5])
+1
+
+
+Node: IL4
+{5: ['ACTB', 'ALB', 'CD44', 'CRP', 'CSF1', 'EGFR', 'FN1', 'FOS', 'GAPDH', 'IL6', 'PDGFRA', 'PDGFRB', 'PTGS2', 'STAT3', 'TGFB1', 'TIMP1', 'TP53'], 0: ['CCL11', 'CCL17', 'CCL2', 'CCL22', 'CCL3', 'CCL4', 'CCL5', 'CCR3', 'CCR5', 'CCR6', 'CCR7', 'CCRL2', 'CX3CL1', 'CXCL1', 'CXCL10', 'CXCL12', 'CXCL13', 'CXCL8', 'CXCL9', 'CXCR3', 'CXCR5'], 3: ['CD163', 'CD19', 'CD1C', 'CD27', 'CD274', 'CD28', 'CD4', 'CD40', 'CD40LG', 'CD68', 'CD69', 'CD80', 'CD83', 'CD86', 'CD8A', 'CTLA4', 'FCGR3A', 'FCGR3B', 'FOXP3', 'HAVCR2', 'ICAM1', 'ICOS', 'IDO1', 'IL17A', 'ITGAM', 'ITGAX', 'PTPRC', 'SELL', 'TBX21'], 2: ['CSF2', 'CSF2RB', 'CSF3', 'CSF3R', 'GATA3', 'IFNA1', 'IFNAR1', 'IFNAR2', 'IFNB1', 'IFNG', 'IFNGR1', 'IFNLR1', 'IL10', 'IL10RA', 'IL10RB', 'IL11RA', 'IL12RB1', 'IL12RB2', 'IL13', 'IL13RA1', 'IL13RA2', 'IL15', 'IL17F', 'IL2', 'IL20RA', 'IL20RB', 'IL21', 'IL21R', 'IL22', 'IL22RA1', 'IL23A', 'IL23R', 'IL27RA', 'IL2RA', 'IL2RB', 'IL2RG', 'IL3', 'IL3RA', 'IL4R', 'IL5', 'IL5RA', 'IL6R', 'IL6ST', 'IL7', 'IL7R', 'IL9', 'IRF4', 'JAK1', 'JAK2', 'JAK3', 'LEPR', 'LIFR', 'SOCS1', 'SOCS3', 'STAT1', 'STAT4', 'STAT5A', 'STAT5B', 'STAT6', 'TSLP', 'TYK2'], 1: ['IL18', 'IL1A', 'IL1B', 'IL1R1', 'IL1RN', 'IL33', 'LTA', 'MYD88', 'NFKB1', 'TLR1', 'TLR2', 'TLR4', 'TLR9', 'TNF', 'TNFSF11']}
+module: 2
+modules connecting: dict_keys([5, 0, 3, 2, 1])
+2
+
+
+Node: CD44
+{5: ['ACAN', 'ACTB', 'AKT1', 'ALB', 'APOE', 'COL2A1', 'CTNNB1', 'EGF', 'EGFR', 'ERBB2', 'ESR1', 'FGF2', 'FN1', 'FYN', 'GAPDH', 'HSP90AA1', 'HSP90AB1', 'IGF1', 'IGFBP3', 'IL6', 'KIT', 'MAPK3', 'MMP2', 'MMP9', 'MYC', 'PDGFRB', 'PLAUR', 'RUNX2', 'SRC', 'STAT3', 'TGFB1', 'TIMP1', 'TP53', 'VCAM1', 'VIM'], 0: ['CCL2', 'CCL5', 'CCR5', 'CCR7', 'CXCL12', 'CXCL8', 'CXCR2', 'CXCR3', 'CXCR4', 'CXCR5', 'MIF'], 3: ['CD19', 'CD2', 'CD28', 'CD34', 'CD38', 'CD4', 'CD40', 'CD40LG', 'CD68', 'CD69', 'CD80', 'CD86', 'CD8A', 'FAS', 'FCGR3A', 'FCGR3B', 'FOXP3', 'ICAM1', 'ICOS', 'IL17A', 'ITGAM', 'ITGAX', 'ITGB2', 'LCK', 'NCAM1', 'PTPRC', 'SELL'], 2: ['CSF2', 'IFNG', 'IL10', 'IL15', 'IL2', 'IL2RA', 'IL2RB', 'IL4', 'IL7R', 'STAT1'], 1: ['IL1A', 'IL1B', 'LY96', 'TLR2', 'TLR4', 'TNF']}
+module: 5
+modules connecting: dict_keys([5, 0, 3, 2, 1])
+2
+
+
+Node: CTNNB1
+{5: ['ACTB', 'AKT1', 'ALB', 'BCL2', 'BCL2L1', 'CASP3', 'CASP8', 'CD44', 'CDK6', 'EGF', 'EGFR', 'ERBB2', 'ESR1', 'FGF2', 'FN1', 'FYN', 'GAPDH', 'H3C12', 'H3C13', 'HDAC1', 'HIF1A', 'HSP90AB1', 'IL6', 'INS', 'JUN', 'KRAS', 'MAPK1', 'MAPK14', 'MAPK3', 'MAPK8', 'MMP2', 'MMP9', 'MYC', 'PDGFRA', 'PPARG', 'PTGS2', 'PTK2', 'PTPN11', 'RUNX2', 'SRC', 'STAT3', 'TGFB1', 'TP53', 'VIM'], 3: ['CD4', 'CD8A', 'PTPRC'], 1: ['CHUK', 'IKBKB', 'IL1B', 'IRF3', 'NFKB1', 'RELA', 'TNF'], 0: ['CXCL8'], 2: ['IFNG', 'STAT1', 'STAT5A', 'STAT5B']}
+module: 5
+modules connecting: dict_keys([5, 3, 1, 0, 2])
+1
+
+
+Node: JAK2
+{5: ['AKT1', 'BCL2', 'BCL2L1', 'EGFR', 'ERBB2', 'FN1', 'FOS', 'FYN', 'GRB2', 'HIF1A', 'HSP90AA1', 'IGF1', 'IL6', 'KIT', 'KRAS', 'LEP', 'MAPK1', 'MAPK3', 'PDGFRA', 'PDGFRB', 'PTK2', 'PTPN11', 'SRC', 'STAT3', 'TP53'], 0: ['CCR1', 'CCR2', 'CCR3', 'CCR5', 'CCR6', 'CCR7', 'CX3CR1', 'CXCL8', 'CXCR1', 'CXCR2', 'CXCR3', 'CXCR4', 'CXCR5', 'CXCR6'], 2: ['CSF2', 'CSF2RB', 'CSF3', 'CSF3R', 'EPO', 'IFNA1', 'IFNA17', 'IFNA2', 'IFNAR1', 'IFNAR2', 'IFNB1', 'IFNG', 'IFNGR1', 'IFNLR1', 'IL10', 'IL10RA', 'IL10RB', 'IL11', 'IL11RA', 'IL12RB1', 'IL12RB2', 'IL13', 'IL13RA1', 'IL13RA2', 'IL2', 'IL20RB', 'IL21R', 'IL22RA1', 'IL23A', 'IL23R', 'IL27RA', 'IL2RA', 'IL2RB', 'IL2RG', 'IL3', 'IL3RA', 'IL4', 'IL4R', 'IL5', 'IL5RA', 'IL6R', 'IL6ST', 'IL7', 'IL7R', 'JAK1', 'JAK3', 'LEPR', 'LIF', 'LIFR', 'OSM', 'PTPN2', 'SOCS1', 'SOCS3', 'STAT1', 'STAT2', 'STAT4', 'STAT5A', 'STAT5B', 'STAT6', 'TYK2'], 1: ['IL1B', 'SYK', 'TLR4', 'TNF', 'TNFRSF1A'], 3: ['PTPRC']}
+module: 2
+modules connecting: dict_keys([5, 0, 2, 1, 3])
+2
+
+
+Node: MAPK1
+{5: ['ACTB', 'AKT1', 'BCL2', 'CASP3', 'CASP8', 'CTNNB1', 'CYBB', 'EGF', 'ESR1', 'ESR2', 'FGF2', 'FN1', 'FOS', 'GAPDH', 'GRB2', 'HIF1A', 'HSP90AA1', 'HSP90AB1', 'IL6', 'INS', 'JUN', 'KRAS', 'MAPK14', 'MAPK3', 'MAPK8', 'MYC', 'NCF1', 'NCF2', 'NCF4', 'PPARG', 'PTGS2', 'PTPN11', 'SRC', 'STAT3', 'TP53'], 0: ['CXCL8'], 1: ['HMGB1', 'NFKB1', 'RELA', 'TNF'], 2: ['IL6ST', 'JAK1', 'JAK2', 'STAT1', 'STAT5A']}
+module: 5
+modules connecting: dict_keys([5, 0, 1, 2])
+1
+
+
+Node: FCGR3A
+{5: ['ALB', 'CD44', 'CRP', 'CSF1R', 'EGFR', 'ERBB2', 'IL6', 'KIT', 'MPO', 'SRC'], 0: ['CCL2', 'CCL5', 'CCR2', 'CCR5', 'CCR7', 'CX3CR1', 'CXCL10', 'CXCR1', 'CXCR4'], 3: ['CD163', 'CD19', 'CD1C', 'CD2', 'CD27', 'CD274', 'CD28', 'CD34', 'CD38', 'CD4', 'CD40', 'CD5', 'CD68', 'CD69', 'CD80', 'CD86', 'CD8A', 'CTLA4', 'FCGR2A', 'FCGR3B', 'FOXP3', 'GZMB', 'HAVCR2', 'ICAM1', 'IL17A', 'ITGAM', 'ITGAX', 'ITGB2', 'LCK', 'NCAM1', 'PDCD1', 'PRF1', 'PTPRC', 'SELL', 'TNFRSF9'], 2: ['CSF2', 'IFNG', 'IL10', 'IL10RA', 'IL15', 'IL2', 'IL3RA', 'IL4', 'IL7R'], 1: ['IL1B', 'SYK', 'TLR2', 'TLR4', 'TLR8', 'TLR9', 'TNF']}
+module: 3
+modules connecting: dict_keys([5, 0, 3, 2, 1])
+2
+
+
+Node: CD80
+{5: ['AKT1', 'CD44', 'CSF1', 'IL6', 'STAT3'], 0: ['CCL2', 'CCL3', 'CCR5', 'CCR7', 'CXCL10', 'CXCL9', 'CXCR4'], 3: ['CD163', 'CD19', 'CD1C', 'CD2', 'CD27', 'CD274', 'CD28', 'CD38', 'CD4', 'CD40', 'CD40LG', 'CD5', 'CD69', 'CD83', 'CD86', 'CD8A', 'CTLA4', 'FASLG', 'FCGR2A', 'FCGR3A', 'FCGR3B', 'FOXP3', 'GZMB', 'HAVCR2', 'ICAM1', 'ICOS', 'IDO1', 'IL17A', 'ITGAM', 'ITGAX', 'ITGB2', 'LAG3', 'LCK', 'PDCD1', 'PTPRC', 'SELL', 'TBX21', 'TNFRSF18', 'TNFRSF4', 'TNFRSF9'], 2: ['CSF2', 'IFNA1', 'IFNG', 'IL10', 'IL13', 'IL15', 'IL2', 'IL3RA', 'IL4', 'IL5'], 1: ['IL1A', 'IL1B', 'NFKB1', 'TLR2', 'TLR3', 'TLR4', 'TLR7', 'TLR9', 'TNF']}
+module: 3
+modules connecting: dict_keys([5, 0, 3, 2, 1])
+2
+
+
+Node: IL1B
+{5: ['ACAN', 'ACTB', 'ADIPOQ', 'AGT', 'AKT1', 'ALB', 'APOE', 'BCL2', 'BCL2L1', 'CASP3', 'CASP8', 'CD44', 'CRP', 'CSF1', 'CTNNB1', 'CYBB', 'EDN1', 'EGF', 'EGFR', 'ESR1', 'F3', 'FGF2', 'FN1', 'FOS', 'GAPDH', 'HIF1A', 'HSP90AA1', 'HSP90AB1', 'IGF1', 'IL6', 'INS', 'JUN', 'LCN2', 'LEP', 'MAPK14', 'MAPK3', 'MAPK8', 'MMP1', 'MMP12', 'MMP2', 'MMP3', 'MMP9', 'MPO', 'MYC', 'PPARG', 'PTGS2', 'RUNX2', 'SERPINE1', 'STAT3', 'TGFB1', 'TIMP1', 'TP53', 'TXNIP', 'VCAM1', 'VEGFC'], 1: ['CASP1', 'CHUK', 'HMGB1', 'IKBKB', 'IL18', 'IL1A', 'IL1R1', 'IL1R2', 'IL1RN', 'IL33', 'IRAK1', 'IRAK4', 'IRF3', 'LTA', 'LY96', 'MYD88', 'NFKB1', 'NFKBIA', 'NLRP3', 'NOD2', 'PTGS1', 'RELA', 'TLR1', 'TLR2', 'TLR3', 'TLR4', 'TLR5', 'TLR7', 'TLR8', 'TLR9', 'TNF', 'TNFAIP3', 'TNFRSF1A', 'TNFRSF1B', 'TNFSF11', 'TRAF6'], 0: ['CCL11', 'CCL13', 'CCL19', 'CCL2', 'CCL20', 'CCL22', 'CCL3', 'CCL3L1', 'CCL4', 'CCL5', 'CCL7', 'CCR1', 'CCR2', 'CCR3', 'CCR5', 'CCR6', 'CCR7', 'CCRL2', 'CX3CL1', 'CX3CR1', 'CXCL1', 'CXCL10', 'CXCL11', 'CXCL12', 'CXCL13', 'CXCL2', 'CXCL3', 'CXCL5', 'CXCL6', 'CXCL8', 'CXCL9', 'CXCR1', 'CXCR2', 'CXCR3', 'CXCR4', 'IL16'], 3: ['CD163', 'CD274', 'CD28', 'CD4', 'CD40', 'CD40LG', 'CD68', 'CD80', 'CD83', 'CD86', 'CD8A', 'FAS', 'FASLG', 'FCGR3A', 'FCGR3B', 'FOXP3', 'GZMB', 'ICAM1', 'IDO1', 'IGHV3-43D', 'IL17A', 'ITGAM', 'ITGAX', 'ITGB2', 'PTPRC', 'SELL', 'TBX21'], 2: ['CSF2', 'CSF3', 'IFNA1', 'IFNA2', 'IFNB1', 'IFNG', 'IL10', 'IL10RA', 'IL11', 'IL13', 'IL15', 'IL17F', 'IL2', 'IL22', 'IL23R', 'IL2RA', 'IL3', 'IL4', 'IL4R', 'IL5', 'IL6R', 'IL7', 'IL7R', 'IL9', 'JAK2', 'LIF', 'LIFR', 'OSM', 'SOCS3', 'STAT1']}
+module: 1
+modules connecting: dict_keys([5, 1, 0, 3, 2])
+2
+
+
+Node: PTPRC
+{5: ['ACTB', 'ALB', 'CD44', 'CSF1R', 'CTNNB1', 'EGF', 'EGFR', 'FN1', 'FYN', 'GAPDH', 'IL6', 'KIT', 'MMP9', 'TGFB1', 'VCAM1'], 0: ['CCL2', 'CCL5', 'CCR2', 'CCR5', 'CCR7', 'CX3CR1', 'CXCL12', 'CXCR3', 'CXCR4', 'CXCR5'], 3: ['CD163', 'CD19', 'CD1C', 'CD2', 'CD27', 'CD274', 'CD28', 'CD34', 'CD38', 'CD4', 'CD40', 'CD40LG', 'CD5', 'CD68', 'CD69', 'CD80', 'CD86', 'CD8A', 'CTLA4', 'FAS', 'FCGR2A', 'FCGR3A', 'FCGR3B', 'FOXP3', 'GZMB', 'HAVCR2', 'ICAM1', 'ICOS', 'IL17A', 'ITGAM', 'ITGAX', 'ITGB2', 'LCK', 'NCAM1', 'PRF1', 'SELL', 'TBX21'], 2: ['CSF2', 'IFNG', 'IL10', 'IL2', 'IL2RB', 'IL2RG', 'IL3', 'IL3RA', 'IL4', 'IL7', 'IL7R', 'IRF4', 'JAK2', 'JAK3', 'STAT1'], 1: ['IL1A', 'IL1B', 'SYK', 'TLR2', 'TLR4', 'TLR7', 'TLR9', 'TNF', 'TNFSF13B']}
+module: 3
+modules connecting: dict_keys([5, 0, 3, 2, 1])
+2
+
+
+Node: FGF2
+{5: ['ACTB', 'AKT1', 'ALB', 'CD44', 'CSF1R', 'CTNNB1', 'EDN1', 'EGF', 'EGFR', 'ERBB2', 'FN1', 'GAPDH', 'HIF1A', 'IGF1', 'IL6', 'INS', 'KIT', 'KRAS', 'MAPK1', 'MAPK3', 'MMP1', 'MMP2', 'MMP3', 'MMP9', 'MYC', 'PDGFRA', 'PDGFRB', 'PTGS2', 'RUNX2', 'SERPINE1', 'STAT3', 'TGFB1', 'TIMP1', 'TP53', 'VEGFC'], 0: ['CCL11', 'CCL2', 'CX3CL1', 'CXCL1', 'CXCL12', 'CXCL8', 'CXCR4'], 3: ['CD34', 'ICAM1', 'IL17A'], 2: ['CSF2', 'CSF3', 'IFNA2', 'IL10', 'IL13', 'IL2', 'IL7', 'IL9', 'LIF', 'OSM'], 1: ['IL1A', 'IL1B', 'TNF']}
+module: 5
+modules connecting: dict_keys([5, 0, 3, 2, 1])
+2
+
+
+Node: TGFB1
+{5: ['ACAN', 'ACTB', 'AGT', 'AKT1', 'ALB', 'CASP3', 'CD44', 'COL2A1', 'CSF1', 'CTNNB1', 'EGF', 'EGFR', 'FGF2', 'FN1', 'FOS', 'GAPDH', 'HIF1A', 'IGF1', 'IGF2', 'IL6', 'INS', 'JUN', 'KIT', 'LEP', 'MAPK3', 'MMP1', 'MMP12', 'MMP2', 'MMP3', 'MMP9', 'MYC', 'PDGFRA', 'PDGFRB', 'PPARG', 'RUNX2', 'SERPINE1', 'SRC', 'STAT3', 'TIMP1', 'TP53'], 0: ['CCL2', 'CXCL11', 'CXCL12', 'CXCL8', 'CXCR4'], 3: ['CD274', 'CD34', 'CD4', 'CD68', 'CD8A', 'FASLG', 'FOXP3', 'ICAM1', 'IL17A', 'PTPRC', 'TBX21'], 2: ['CSF2', 'IFNG', 'IL10', 'IL13', 'IL17F', 'IL2', 'IL4', 'IL7', 'STAT6'], 1: ['IL1A', 'IL1B', 'NFKB1', 'TLR4', 'TNF']}
+module: 5
+modules connecting: dict_keys([5, 0, 3, 2, 1])
+2
+
+
+Node: CD4
+{5: ['ACTB', 'AKT1', 'ALB', 'APOE', 'BCL2', 'BCL2L1', 'CASP3', 'CD44', 'CRP', 'CSF1R', 'CTNNB1', 'FN1', 'FYN', 'GAPDH', 'IL6', 'INS', 'KIT', 'MAPK3', 'MMP9', 'MPO', 'PTK2', 'PTPN11', 'SRC', 'STAT3', 'TGFB1', 'TP53', 'VCAM1'], 3: ['ADORA2A', 'CD163', 'CD19', 'CD1C', 'CD2', 'CD27', 'CD274', 'CD28', 'CD34', 'CD38', 'CD40', 'CD40LG', 'CD5', 'CD68', 'CD69', 'CD80', 'CD83', 'CD86', 'CD8A', 'CTLA4', 'FAS', 'FASLG', 'FCGR2A', 'FCGR3A', 'FCGR3B', 'FOXP3', 'GZMB', 'HAVCR2', 'ICAM1', 'ICOS', 'IDO1', 'IL17A', 'ITGAM', 'ITGAX', 'ITGB2', 'LAG3', 'LCK', 'NCAM1', 'PDCD1', 'PRF1', 'PTPRC', 'SELL', 'TBX21', 'TNFRSF18', 'TNFRSF4', 'TNFRSF9'], 1: ['CASP1', 'IL18', 'IL1A', 'IL1B', 'IL1R1', 'IL33', 'LTA', 'MYD88', 'NFKB1', 'SYK', 'TLR2', 'TLR3', 'TLR4', 'TLR7', 'TLR8', 'TLR9', 'TNF', 'TNFRSF1A', 'TNFSF11', 'TNFSF13B'], 0: ['CCL17', 'CCL19', 'CCL2', 'CCL20', 'CCL21', 'CCL22', 'CCL3', 'CCL4', 'CCL5', 'CCR1', 'CCR2', 'CCR3', 'CCR5', 'CCR6', 'CCR7', 'CCRL2', 'CX3CR1', 'CXCL1', 'CXCL10', 'CXCL11', 'CXCL12', 'CXCL13', 'CXCL8', 'CXCL9', 'CXCR3', 'CXCR4', 'CXCR5', 'CXCR6', 'IL16'], 2: ['CSF2', 'CSF3', 'GATA3', 'IFNA1', 'IFNA17', 'IFNA2', 'IFNB1', 'IFNG', 'IFNGR1', 'IL10', 'IL10RA', 'IL12RB1', 'IL12RB2', 'IL13', 'IL15', 'IL17F', 'IL2', 'IL21', 'IL21R', 'IL22', 'IL23R', 'IL27RA', 'IL2RA', 'IL2RB', 'IL2RG', 'IL3', 'IL3RA', 'IL4', 'IL4R', 'IL5', 'IL7', 'IL7R', 'IL9', 'IRF4', 'JAK1', 'JAK3', 'SOCS3', 'STAT1', 'STAT4', 'STAT5A', 'STAT5B', 'STAT6', 'TSLP']}
+module: 3
+modules connecting: dict_keys([5, 3, 1, 0, 2])
+2
+
+
+Node: HSP90AA1
+{5: ['ACTB', 'AHR', 'AKT1', 'BCL2', 'BCL2A1', 'BCL2L1', 'CASP3', 'CD44', 'EGF', 'EGFR', 'ERBB2', 'ESR1', 'ESR2', 'FKBP5', 'FYN', 'GAPDH', 'GDF5', 'GRB2', 'H3C12', 'H3C13', 'HDAC1', 'HIF1A', 'HSP90AB1', 'IL6', 'JUN', 'KIT', 'KRAS', 'MAPK1', 'MAPK3', 'MAPK8', 'MMP2', 'MYC', 'PTK2', 'RAB8A', 'SRC', 'STAT3', 'TP53', 'VIM'], 3: ['CD40', 'LCK'], 1: ['CHUK', 'HMGB1', 'IKBKB', 'IL1B', 'IRF3', 'NLRP3', 'TLR2', 'TLR4'], 0: ['CXCR4'], 2: ['JAK2', 'STAT1']}
+module: 5
+modules connecting: dict_keys([5, 3, 1, 0, 2])
+1
+
+
+Node: JAK1
+{0: ['CCL2'], 3: ['CD4'], 2: ['CSF2', 'CSF2RB', 'CSF3', 'CSF3R', 'EPO', 'IFNA1', 'IFNA17', 'IFNA2', 'IFNAR1', 'IFNAR2', 'IFNB1', 'IFNG', 'IFNGR1', 'IFNL1', 'IFNLR1', 'IL10', 'IL10RA', 'IL10RB', 'IL11', 'IL11RA', 'IL12RB1', 'IL12RB2', 'IL13', 'IL13RA1', 'IL13RA2', 'IL15', 'IL19', 'IL2', 'IL20RA', 'IL20RB', 'IL21', 'IL21R', 'IL22', 'IL22RA1', 'IL23R', 'IL24', 'IL27RA', 'IL2RA', 'IL2RB', 'IL2RG', 'IL3', 'IL3RA', 'IL4', 'IL4R', 'IL5RA', 'IL6R', 'IL6ST', 'IL7', 'IL7R', 'IL9', 'JAK2', 'JAK3', 'LEPR', 'LIF', 'LIFR', 'OSM', 'PTPN2', 'SOCS1', 'SOCS3', 'STAT1', 'STAT2', 'STAT4', 'STAT5A', 'STAT5B', 'STAT6', 'TYK2'], 5: ['EGFR', 'ERBB2', 'GRB2', 'IL6', 'KRAS', 'MAPK1', 'PDGFRA', 'PDGFRB', 'PTPN11', 'STAT3', 'TP53'], 1: ['MYD88', 'TNF', 'TNFRSF1A']}
+module: 2
+modules connecting: dict_keys([0, 3, 2, 5, 1])
+1
+
+
+Node: ESR1
+{5: ['ACTB', 'AHR', 'AKT1', 'ALB', 'BCL2', 'CD44', 'CTNNB1', 'CTSD', 'DNMT3B', 'EGF', 'EGFR', 'ERBB2', 'ESR2', 'FKBP5', 'FN1', 'FOS', 'GAPDH', 'GRB2', 'H3C12', 'H3C13', 'HDAC1', 'HIF1A', 'HSP90AA1', 'HSP90AB1', 'IGF1', 'IGF2', 'IL6', 'INS', 'JUN', 'KRAS', 'LEP', 'MAPK1', 'MAPK14', 'MAPK3', 'MAPK8', 'MMP9', 'MYC', 'PPARG', 'PTK2', 'RUNX1', 'RUNX2', 'SRC', 'STAT3', 'TP53'], 1: ['CHUK', 'IL1B', 'NFKB1', 'RELA'], 0: ['CXCL12', 'CXCR4'], 2: ['GATA3', 'STAT1', 'STAT5A']}
+module: 5
+modules connecting: dict_keys([5, 1, 0, 2])
+1
+
+
+Node: AKT1
+{5: ['ACTB', 'ADIPOQ', 'AGT', 'ALB', 'BCL2', 'BCL2L1', 'CASP3', 'CASP8', 'CD44', 'CTNNB1', 'CYBB', 'DDIT4', 'EGF', 'EGFR', 'ESR1', 'FGF2', 'FKBP5', 'FN1', 'FOS', 'FYN', 'GAPDH', 'GRB2', 'H3C12', 'H3C13', 'HDAC1', 'HIF1A', 'HSP90AA1', 'HSP90AB1', 'IGF1', 'IL6', 'INS', 'JUN', 'KIT', 'KRAS', 'LEP', 'MAPK1', 'MAPK14', 'MAPK3', 'MAPK8', 'MMP2', 'MMP9', 'MYC', 'NCF1', 'NCF2', 'NCF4', 'PLEK2', 'PPARG', 'PTGS2', 'PTK2', 'PTPN11', 'RUNX2', 'SRC', 'STAT3', 'TGFB1', 'TP53', 'VIM'], 0: ['CCL2', 'CCL5', 'CXCL12', 'CXCL8', 'CXCR4', 'GRK2'], 3: ['CD274', 'CD28', 'CD4', 'CD80', 'CD86', 'CD8A', 'CTLA4', 'ICAM1', 'LCK', 'TNFRSF4'], 1: ['CHUK', 'IKBKB', 'IL1B', 'MYD88', 'NFKB1', 'NFKBIA', 'RELA', 'TLR2', 'TLR4', 'TNF', 'TNFRSF1A', 'TNFSF11', 'TRAF6'], 2: ['IFNB1', 'IFNG', 'IL10', 'JAK2', 'SOCS3', 'STAT1', 'STAT5A', 'STAT5B', 'STAT6']}
+module: 5
+modules connecting: dict_keys([5, 0, 3, 1, 2])
+2
+
+
+Node: FN1
+{5: ['ACAN', 'ACTB', 'AGT', 'AKT1', 'ALB', 'APOE', 'BCL2', 'CD44', 'CRP', 'CTNNB1', 'EGF', 'EGFR', 'ERBB2', 'ESR1', 'F2', 'F3', 'FGF2', 'FOS', 'GAPDH', 'GRB2', 'IGF1', 'IGFBP3', 'IL6', 'INS', 'KIT', 'KRAS', 'LCN2', 'MAPK1', 'MAPK3', 'MMP1', 'MMP10', 'MMP12', 'MMP2', 'MMP3', 'MMP9', 'MYC', 'PDGFRB', 'PTK2', 'SERPINE1', 'SRC', 'STAT3', 'TGFB1', 'TIMP1', 'VCAM1', 'VIM'], 0: ['CCL2', 'CXCL12', 'CXCL8', 'CXCR4', 'PF4'], 3: ['CD34', 'CD4', 'CD8A', 'FASLG', 'ICAM1', 'ITGAM', 'ITGAX', 'ITGB2', 'NCAM1', 'PTPRC'], 2: ['IL10', 'IL13', 'IL2', 'IL4', 'IL7', 'JAK2'], 1: ['IL1A', 'IL1B', 'NFKB1', 'SYK', 'TLR2', 'TLR4', 'TNF']}
+module: 5
+modules connecting: dict_keys([5, 0, 3, 2, 1])
+2
+
+
+Node: IL13
+{0: ['CCL11', 'CCL17', 'CCL2', 'CCL22', 'CCL3', 'CCL4', 'CCL5', 'CCR3', 'CXCL1', 'CXCL10', 'CXCL8', 'CXCL9'], 3: ['CD163', 'CD28', 'CD4', 'CD40LG', 'CD80', 'CD86', 'CD8A', 'FOXP3', 'ICAM1', 'IGHV3-43D', 'IL17A', 'ITGAM', 'ITGAX', 'TBX21'], 5: ['CSF1', 'EGFR', 'FGF2', 'FN1', 'IL6', 'MMP9', 'PDGFRA', 'PDGFRB', 'STAT3', 'TGFB1', 'TIMP1', 'VCAM1'], 2: ['CSF2', 'CSF2RB', 'CSF3', 'CSF3R', 'GATA3', 'IFNA1', 'IFNAR1', 'IFNAR2', 'IFNG', 'IFNGR1', 'IFNLR1', 'IL10', 'IL10RA', 'IL10RB', 'IL11', 'IL11RA', 'IL12RB1', 'IL12RB2', 'IL13RA1', 'IL13RA2', 'IL15', 'IL17F', 'IL2', 'IL20RA', 'IL20RB', 'IL21R', 'IL22', 'IL22RA1', 'IL23R', 'IL27RA', 'IL2RA', 'IL2RB', 'IL2RG', 'IL3', 'IL3RA', 'IL4', 'IL4R', 'IL5', 'IL5RA', 'IL6R', 'IL6ST', 'IL7', 'IL7R', 'IL9', 'JAK1', 'JAK2', 'LEPR', 'STAT1', 'STAT6', 'TSLP', 'TYK2'], 1: ['IL18', 'IL1A', 'IL1B', 'IL1R1', 'IL1RN', 'IL33', 'LTA', 'MYD88', 'TLR2', 'TLR4', 'TNF']}
+module: 2
+modules connecting: dict_keys([0, 3, 5, 2, 1])
+2
+
+
+Node: MYC
+{5: ['ACTB', 'AKT1', 'ALB', 'BCL2', 'BCL2L1', 'CASP3', 'CASP8', 'CD44', 'CDK6', 'CTNNB1', 'DNMT3B', 'EGF', 'EGFR', 'ERBB2', 'ESR1', 'FGF2', 'FN1', 'FOS', 'GAPDH', 'GRB2', 'H3C12', 'H3C13', 'HDAC1', 'HIF1A', 'HSP90AA1', 'HSP90AB1', 'IGF1', 'IL6', 'INS', 'JUN', 'KRAS', 'MAPK1', 'MAPK14', 'MAPK3', 'MMP9', 'PTGS2', 'SRC', 'STAT3', 'TGFB1', 'TP53'], 3: ['CD38', 'CD8A'], 1: ['CHUK', 'IKBKB', 'IL1B', 'NFKB1', 'RELA', 'TNF'], 2: ['IL2', 'IRF4', 'LIF', 'STAT1', 'STAT5A', 'STAT6']}
+module: 5
+modules connecting: dict_keys([5, 3, 1, 2])
+1
+
+
+Node: MAPK3
+{5: ['ACTB', 'AGT', 'AKT1', 'BCL2', 'BCL2L1', 'CASP3', 'CASP8', 'CD44', 'CTNNB1', 'CYBB', 'EGF', 'ESR1', 'ESR2', 'FGF2', 'FN1', 'FOS', 'GAPDH', 'GRB2', 'HIF1A', 'HSP90AA1', 'HSP90AB1', 'IL6', 'INS', 'JUN', 'KRAS', 'MAPK1', 'MAPK14', 'MMP9', 'MYC', 'NCF1', 'NCF2', 'NCF4', 'PTGS2', 'PTPN11', 'RUNX2', 'SRC', 'STAT3', 'TGFB1', 'TP53', 'VCAM1'], 0: ['CCL2'], 3: ['CD4', 'IL17A'], 1: ['HMGB1', 'IL1A', 'IL1B', 'MYD88', 'NFKB1', 'NFKBIA', 'TLR4', 'TNF'], 2: ['IFNG', 'JAK2', 'STAT1', 'STAT5A', 'STAT5B']}
+module: 5
+modules connecting: dict_keys([5, 0, 3, 1, 2])
+1
+
+
+Node: IL10
+{5: ['ACTB', 'ADIPOQ', 'AKT1', 'ALB', 'APOE', 'BCL2', 'CASP3', 'CD44', 'CRP', 'CSF1', 'EGF', 'EGFR', 'FGF2', 'FN1', 'FOS', 'GAPDH', 'HIF1A', 'IGF1', 'IL6', 'INS', 'LCN2', 'LEP', 'MMP1', 'MMP2', 'MMP3', 'MMP9', 'MPO', 'PDGFRA', 'PDGFRB', 'PPARG', 'PTGS2', 'STAT3', 'TGFB1', 'TIMP1', 'TP53', 'VCAM1'], 1: ['CASP1', 'HMGB1', 'IL18', 'IL1A', 'IL1B', 'IL1R1', 'IL1R2', 'IL1RN', 'IL33', 'IRAK1', 'IRF5', 'LTA', 'MYD88', 'NFKB1', 'NFKBIA', 'NOD2', 'RELA', 'TLR1', 'TLR2', 'TLR3', 'TLR4', 'TLR5', 'TLR7', 'TLR8', 'TLR9', 'TNF', 'TNFRSF1A', 'TNFRSF1B', 'TNFSF11', 'TNFSF13B'], 0: ['CCL11', 'CCL13', 'CCL17', 'CCL19', 'CCL2', 'CCL20', 'CCL22', 'CCL3', 'CCL3L1', 'CCL4', 'CCL5', 'CCL7', 'CCR1', 'CCR2', 'CCR5', 'CCR6', 'CCR7', 'CCRL2', 'CX3CL1', 'CX3CR1', 'CXCL1', 'CXCL10', 'CXCL11', 'CXCL12', 'CXCL2', 'CXCL3', 'CXCL5', 'CXCL8', 'CXCL9', 'CXCR3'], 3: ['CD163', 'CD19', 'CD1C', 'CD27', 'CD274', 'CD28', 'CD34', 'CD4', 'CD40', 'CD40LG', 'CD68', 'CD69', 'CD80', 'CD83', 'CD86', 'CD8A', 'CTLA4', 'FASLG', 'FCGR3A', 'FCGR3B', 'FOXP3', 'GZMB', 'HAVCR2', 'ICAM1', 'ICOS', 'IDO1', 'IL17A', 'ITGAM', 'ITGAX', 'LAG3', 'NCAM1', 'PDCD1', 'PRF1', 'PTPRC', 'SELL', 'TBX21'], 2: ['CSF2', 'CSF2RB', 'CSF3', 'CSF3R', 'EPO', 'GATA3', 'IFNA1', 'IFNA17', 'IFNA2', 'IFNAR1', 'IFNAR2', 'IFNB1', 'IFNG', 'IFNGR1', 'IFNL1', 'IFNLR1', 'IL10RA', 'IL10RB', 'IL11', 'IL11RA', 'IL12B', 'IL12RB1', 'IL12RB2', 'IL13', 'IL13RA1', 'IL13RA2', 'IL15', 'IL17F', 'IL19', 'IL2', 'IL20RA', 'IL20RB', 'IL21R', 'IL22', 'IL22RA1', 'IL23A', 'IL23R', 'IL24', 'IL27RA', 'IL2RA', 'IL2RB', 'IL2RG', 'IL3', 'IL3RA', 'IL4', 'IL4R', 'IL5', 'IL5RA', 'IL6R', 'IL6ST', 'IL7', 'IL7R', 'IL9', 'IRF4', 'JAK1', 'JAK2', 'LEPR', 'LIF', 'LIFR', 'OSM', 'SOCS1', 'SOCS3', 'STAT1', 'STAT4', 'STAT5A', 'STAT5B', 'STAT6', 'TYK2']}
+module: 2
+modules connecting: dict_keys([5, 1, 0, 3, 2])
+2
+
